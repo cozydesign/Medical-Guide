@@ -20,6 +20,7 @@
 	
 	<preference name="orientation" value="portrait" />
 	<preference name="android-windowSoftInputMode" value="adjustResize" />
+	<preference name="androidLaunchMode" value="singleTop" />
 	<preference name="permissions" value="none"/>
 	
     <icon src="res/ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
