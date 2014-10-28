@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.fikribir.medical_guide"
+    version     = "0.0.1" >
+		
+    <name>MedicalGuide</name>
+	
+    <description>
+        Antalya Medical Guide Application
+    </description>
+	
+    <author email="posta@fikribir.com" href="http://fikribir.com">
+        Fikribir Application Team
+    </author>
+	
+    <content src="index.html" />
+	
+    <access origin="*" />
+	
+	<preference name="Orientation" value="portrait" />
+	<preference name="permissions" value="INTERNET"/>	
+	<preference name="permissions" value="ACCESS_NETWORK_STATE"/>
+	
+    <icon src="res/ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
+    <icon src="res/mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
+    <icon src="res/hdpi.png"   gap:platform="android"    gap:qualifier="hdpi" />
+    <icon src="res/xhdpi.png"  gap:platform="android"    gap:qualifier="xhdpi" />
+</widget>
