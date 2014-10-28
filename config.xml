@@ -18,9 +18,9 @@
 	
     <access origin="*" />
 	
-	<preference name="Orientation" value="portrait" />
-	<preference name="permissions" value="INTERNET"/>	
-	<preference name="permissions" value="ACCESS_NETWORK_STATE"/>
+	<preference name="orientation" value="portrait" />
+	<preference name="android-windowSoftInputMode" value="adjustResize" />
+	<preference name="permissions" value="none"/>
 	
     <icon src="res/ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
     <icon src="res/mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
